@@ -17,7 +17,7 @@ $(document).ready(function()
 {
 	"use strict";
 
-	/* 
+	/*
 
 	1. Vars and Inits
 
@@ -48,7 +48,7 @@ $(document).ready(function()
 	initTimePicker();
 	initMenu();
 
-	/* 
+	/*
 
 	2. Set Header
 
@@ -68,7 +68,7 @@ $(document).ready(function()
 		}
 	}
 
-	/* 
+	/*
 
 	3. Init Menu
 
@@ -87,7 +87,7 @@ $(document).ready(function()
 		}
 	}
 
-	/* 
+	/*
 
 	4. Init Date Picker
 
@@ -105,7 +105,7 @@ $(document).ready(function()
 		dp.datepicker();
 	}
 
-	/* 
+	/*
 
 	5. Init Time Picker
 
@@ -118,7 +118,7 @@ $(document).ready(function()
 		    interval: 60,
 		    minTime: '10',
 		    maxTime: '6:00pm',
-		    defaultTime: '11',
+		    defaultTime: '12',
 		    startTime: '10:00',
 		    dynamic:  true,
 		    dropdown: true,
